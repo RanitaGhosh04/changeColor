@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#circle {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 75px;
+    margin: 70px auto;
+}
+
+button {
+    width: 150px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+
+.inner {
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    left: 38px;
+    top: 40px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    position: relative;
+    left: 38px;
+    top: 40px;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
+
